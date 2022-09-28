@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Open+Sans:ital,wght@0,700;1,700&family=Oswald:wght@600&family=Share+Tech+Mono&display=swap');
+
+:root{
+    --fonte-h1: 'Oswald','cursive';
+
+    --cor1:#FFCF2B;
+    --cor2:#806716;
+    --cor3:#80703C;
+    --cor4:#CCA423;
+}
+
+header{
+    background-color: var(--cor1);
+    text-align: center;
+}
+
+header > h1{
+    display: inline-block;
+    color: aliceblue;
+    font-family: var(--fonte-h1);
+    font-weight: bold;
+}
+
+.tec{
+    color: #3c3636;
+    font-weight: 700;
+}
+
+nav{
+    padding-top: 10px;
+    background-color: var(--cor1);
+    height: 35px;
+    font-size: 17px;
+}
+
+nav > p{
+    text-align: center;
+}
+
+nav > p > a{
+    display: inline-block;
+    margin: 0px 8px;
+    padding: 0px 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav > p > a:hover{
+    background-color: var(--cor2);
+    transition-duration: 0.5s;
+    border-radius: 2px;
+}
