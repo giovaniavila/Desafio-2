@@ -3,6 +3,10 @@
     padding: 0%;
 }
 
+body{
+    background-color: #80808030;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Open+Sans:ital,wght@0,700;1,700&family=Oswald:wght@600&family=Share+Tech+Mono&display=swap');
 
 :root{
@@ -54,4 +58,155 @@ nav > p > a:hover{
     background-color: var(--cor2);
     transition-duration: 0.5s;
     border-radius: 2px;
+}
+
+article1{
+    background-color: white;
+    margin: 10px 0px 10px;
+    height: 600px;
+    width: 640px;
+}
+
+    article1 > h1{
+        color: #FFCF2B;
+        text-shadow: 2px 2px 3px #0000002e;
+        font-size: 22px;
+        padding: 15px 0px 0px 20px;
+    }
+
+    article1 > strong{
+        padding:10px 0px 0px 20px;
+    }
+
+    .img{
+        display: block;
+        margin: auto;
+        padding: 20px 0px 0px 0px;
+        width: 600px;
+    }
+
+    article1 > p{
+        text-align: justify;
+        padding: 0px 18px 0px 18px;
+       
+    }
+
+    article1 > a{
+        padding:10px 0px 0px 20px;
+        color: #FFCF2B;
+    }
+
+aside1{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 1px 1px 1px #0000004f;
+}
+
+    aside1 > h4{
+        background-image: linear-gradient(to right,#80808080, white);
+        color: #606162;;
+        margin: 8px 5px 0px 5px;
+    }
+
+    aside1 > p{
+        margin: 0px 5px;
+        text-align: justify;
+    }
+
+    aside1 > a{
+        margin: 2px 5px;
+        color: #FFCF2B;
+    }
+
+    hr{
+    display: block;
+    margin: 7px 15px;
+    width: 165px;
+    }
+
+aside2{
+    background-color: white;
+    height: 136px;
+    width: 200px;
+    box-shadow: 1px 1px 1px #0000004f;
+}
+
+    aside2 > h4{
+        background-image: linear-gradient(to right,#80808080, white);
+        color: #606162;;
+        margin: 8px 5px 0px 5px;
+    }
+
+    aside2 > p > a{
+        margin: 0px 5px;
+        color: #FFCF2B;
+    }
+
+article2{
+    background-color: white;
+    margin: 10px 0px 10px;
+    height: 600px;
+    width: 640px;
+}
+
+    article2 > h1{
+        color: #FFCF2B;
+        text-shadow: 2px 2px 3px #0000002e;
+        font-size: 22px;
+        padding: 15px 0px 0px 20px;
+    }
+
+    article2 > strong{
+        padding:10px 0px 0px 20px;
+    }
+
+    .img{
+        display: block;
+        margin: auto;
+        padding: 20px 0px 0px 0px;
+        width: 600px;
+    }
+
+    article2 > p{
+        text-align: justify;
+        padding: 0px 18px 0px 18px;
+    
+    }
+
+    article2 > a{
+        padding:10px 0px 0px 20px;
+        color: #FFCF2B;
+    }
+
+
+
+.container {
+    display: flex;
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 0px 300px;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 0px 10px;
+}
+
+footer{
+    display: block;
+    margin: 5px 300px;
+    text-align: center;
+    color: #000000bf;
+    padding-top: 10px;
+    height: 30px;
+    width: 870px;
+    background-image: linear-gradient(to top, #80808070, #64646457);
+    box-shadow: 1px 1px 1px #0000007a;
 }
